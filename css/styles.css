@@ -57,7 +57,7 @@ html{
     width: 100vw;
     height: calc(100% - 70px);
     background-color: white;
-    top: 70px;
+    top: 100px;
     overflow-y: scroll;
     overflow-x: hidden;
     left: 0;
@@ -68,7 +68,8 @@ html{
     padding-top: 20%
 }
 .navegation ul li{
-    background-color: rgb(238 238 255);
+    
+    background-color: #ffebeb;  /* <------------ color de los botones del menú desplegable*/
     list-style: none;
     display: flex;
     justify-content: center;
