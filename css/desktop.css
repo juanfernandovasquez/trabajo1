@@ -11,7 +11,23 @@
 /*fin del header */
 
 
+/*first section*/
+.main--first-section--container{
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+}
+
+.main--first-section--container{
+    max-width: 1200px;
+}
+.main--first-section--container h1{
+    font-size: 4.6rem;
+}
+
+
+
 /*second header*/
 .main--second-section--container{
     max-width: 1200px;
+    
 }

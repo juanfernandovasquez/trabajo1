@@ -46,3 +46,12 @@
 
 /*Terminaron los estilos adicionales del header*/
 /*Terminó el header*/
+
+
+/*First section*/
+.main--first-section--container h1{
+    font-size: 4rem;
+    right: 128px;
+    width: 300px;
+
+}
