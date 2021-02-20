@@ -13,6 +13,7 @@ html{
 /*componente header-1*/
 
 /*Estilos básicos del componente header*/
+
 .header--content-container{
     width: 100vw;
     height: 100px;
@@ -58,7 +59,7 @@ html{
     height: calc(100% - 70px);
     background-color: white;
     top: 100px;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     left: 0;
 }
@@ -100,3 +101,46 @@ html{
 /*Terminó el componente header-1*/
 
 
+
+
+/*First section*/
+.main--first-section--container{
+    margin-top: 100px;
+    height: calc(100vh - 100px);
+    width: 100%;
+    background-color: rgb(0, 196, 49);
+}
+.main--first-section--container p{
+    color:blanchedalmond;
+}
+.main--first-section{
+    z-index: -1;
+    position: relative;
+}
+.main--first-section h1{
+    position: absolute;
+    right: calc(50% - 87px);
+    top: 80%;
+}
+
+
+/*Second Section*/
+.main--second-section--container{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    border: solid 1px black;
+
+}
+.second-section--container--icon{
+    height: 150px;
+    width:  150px;
+    background-color:black
+}
+.second-section--container--about,
+.main--second-section--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

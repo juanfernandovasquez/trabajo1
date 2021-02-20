@@ -9,3 +9,9 @@
     font-size: 4rem;
 }
 /*fin del header */
+
+
+/*second header*/
+.main--second-section--container{
+    max-width: 1200px;
+}
