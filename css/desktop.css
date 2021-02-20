@@ -1,0 +1,11 @@
+
+/*header*/
+.header--container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.header-logo p{
+    margin: 0;
+    font-size: 4rem;
+}
+/*fin del header */

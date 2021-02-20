@@ -1,0 +1,50 @@
+
+/*header*/ 
+/*Estilos básicos del componente*/
+.header-logo p{
+    font-size: 3.5rem;
+}
+.hamburger{
+    display: none;
+}
+
+.navegation{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+    top: 0;
+    background-color: white;
+    position: inherit;
+    overflow: hidden;
+}
+
+.navegation ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 0;
+}
+.navegation ul li{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.navegation ul li a{
+    padding: 0;
+}
+/*Terminaron los estilos básicos del componente*/
+
+/*Estilos adicionales del header*/
+
+
+/*Terminaron los estilos adicionales del header*/
+/*Terminó el header*/

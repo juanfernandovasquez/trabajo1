@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/hamburgers.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)"/>
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)"/>
+    <title>Trabajo 1</title>
+</head>
+<body>
+    <header>
+        <div class="header--content-container">
+            <div class="header--container">
+                <!-- acá irá de background el logo  -->
+                <div class="header-logo">
+                </div>
+
+                <!-- button que aparece en un inicio porque es mobile-first -->
+
+                <button class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                <script>
+                    // Look for .hamburger
+                    var hamburger = document.querySelector(".hamburger");
+                    // On click
+                    hamburger.addEventListener("click", function() {
+                      // Toggle class "is-active"
+                      hamburger.classList.toggle("is-active");
+                      // Do something else, like open/close menu
+                        
+                    });
+                  
+                </script>
+                  
+                <!-- Este menú se mostrará solo cuando esté en desktop o tablet -->
+                <nav id="navegation" class="navegation">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <script src="js/jquery-1.12.0.min.js"></script>
+
+        <script>
+        $('.hamburger').on('click', function() {
+            $('.navegation').slideToggle();
+        });
+    
+    </script>
+</body>
+</html> 

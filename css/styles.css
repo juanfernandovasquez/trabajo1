@@ -1,0 +1,101 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+}
+
+/*componente header-1*/
+
+/*Estilos básicos del componente header*/
+.header--content-container{
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: calc(50% - 50vw);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px -3px rgb(0 0 0 / 75%);
+}
+.header-logo{
+    background-image: url('../img/SVG/Recurso1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+}
+
+.header-logo p{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.header--container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center;
+}
+
+/*navegation*/
+.navegation{
+    z-index: 10;
+    position: fixed;
+}
+.navegation{
+    display: none;
+    width: 100vw;
+    height: calc(100% - 70px);
+    background-color: white;
+    top: 70px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    left: 0;
+}
+.navegation ul{
+    height: 100%;
+    display: block;
+    padding-top: 20%
+}
+.navegation ul li{
+    background-color: rgb(238 238 255);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.navegation ul li a{
+    padding: 20px 50%;
+    display: block;
+    color: black;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.hamburger{
+    z-index: 11;
+    padding: 0px;
+}
+
+/*terminaron los estilos básicos del componente header-1*/
+/*Estilos adicionales del header-1*/
+.navegation ul li a:hover{
+    color: rgb(202, 0, 0);
+}
+/*Terminaron los estilos adicionales del header-1*/
+/*Terminó el componente header-1*/
+
+
