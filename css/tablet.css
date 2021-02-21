@@ -55,10 +55,12 @@
     height: calc(100vh - 60px);
 }
 
+
 .slide{
     align-items: center;
     justify-content: center;
 }
+
 .slide-content--container{
 bottom: 0;
 left: 0;
