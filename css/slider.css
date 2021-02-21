@@ -32,12 +32,12 @@
 .slide:nth-child(1){
     color: white;
 
-    /* Con la imagen de background
+    /* Con la imagen de background*/
     background-image: url(../img/ban-pintura.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    */
+    
 }
 .slide:nth-child(2){
     background-image: url();
