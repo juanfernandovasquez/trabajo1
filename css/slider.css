@@ -37,7 +37,7 @@
     background-image: url('../img/pintor511x511.png');
 }
 .slide-background-image{
-    height: 100%;
+    height: 70vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
