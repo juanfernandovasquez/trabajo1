@@ -123,11 +123,11 @@ html{
 }
 
 .second-section--content--container{
-    width: 100%;
+    width: 250px;
 }
 
 .second-section--content--icon{
-    width: 250px;
+    max-width: 100%;
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
