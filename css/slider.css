@@ -1,14 +1,15 @@
 /*Inicio del contenedor del slider*/
 .main--first-section{
-    background-color: rgb(23, 219, 89);
-    margin-top: 100px;  
+    background-color: rgb(124, 143, 131);
+    margin-top: 60px;  
 }
 .contenedor--first-section{
     width: 100%;
-    overflow: hidden;
     height: calc(100vh - 100px);
+    overflow: hidden;
 
 }
+
 .slider-contenedor{
     width: 100%;
     height: 100%;
@@ -21,10 +22,13 @@
 .slide{
     width: 100%;
     display: flex;
-    justify-content: space-around; 
+    flex-direction: column-reverse;
+    justify-content: space-between; 
     align-items: center;
-   flex-shrink: 0;
+    flex-shrink: 0;
+    padding-bottom: 15px;
 }
+
 .slide:nth-child(2){
     background: #332863;
     color: white;
@@ -46,12 +50,12 @@
 
 
 .slide > img{
-    width: 30%;
+    height: 40%;
+    width: 100%;
     background-color: black;
-    height: 30%;
 }
 .slide > div{
-    width: 40%;
+    width: 90%;
 }
 
 .slide  div p{
