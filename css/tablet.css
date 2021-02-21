@@ -54,6 +54,26 @@
     width: 100%;
     height: calc(100vh - 60px);
 }
+
+.slide{
+    align-items: center;
+    justify-content: center;
+}
+.slide-content--container{
+bottom: 0;
+left: 0;
+}
 .slide-background-image{
-    height: 100%;
+    height: calc(100vh - 60px);
+}
+.slide-content--container h2{
+    font-size: 3.5rem;
+}
+.slide-content--container p{
+    font-size: 2rem;
+}
+.slide-content--container a{
+    font-size: 2.5rem;
+    width: 200px;
+    padding: 15px 15px;
 }
