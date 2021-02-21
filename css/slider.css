@@ -17,15 +17,6 @@
 
 
 /*experimentacion*/
-.slide-background-image{
-    height: 50vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter:brightness(0.4);
-    position: absolute;
-}
 
 .first{
     background-image: url('../img/pintor511x511.png');
@@ -43,6 +34,15 @@
 }
 .fifth{
     background-image: url('../img/pintor511x511.png');
+}
+.slide-background-image{
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter:brightness(0.4);
+    position: absolute;
 }
 
 
