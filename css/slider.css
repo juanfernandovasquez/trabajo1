@@ -5,7 +5,7 @@
 }
 .contenedor--first-section{
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     overflow: hidden;
 
 }
@@ -29,8 +29,18 @@
     padding-bottom: 15px;
 }
 
+.slide:nth-child(1){
+    color: white;
+
+    /* Con la imagen de background
+    background-image: url(../img/ban-pintura.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+}
 .slide:nth-child(2){
-    background: #332863;
+    background-image: url();
     color: white;
 }
 .slide:nth-child(3){
@@ -50,9 +60,9 @@
 
 
 .slide > img{
-    height: 40%;
+    height: 50%;
     width: 100%;
-    background-color: black;
+    position: center;
 }
 .slide > div{
     width: 90%;
