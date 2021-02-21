@@ -1,7 +1,13 @@
 
 /*header*/ 
 /*Estilos básicos del componente*/
-
+.header--content-container{
+    height: 70px;
+}
+.header-logo{
+    height: 50px;
+    width: 50px;
+}
 .hamburger{
     display: none;
 }
@@ -68,8 +74,9 @@ left: 0;
 .slide-background-image{
     height: calc(100vh - 60px);
 }
+
 .slide-content--container h2{
-    font-size: 3.5rem;
+    font-size: 3.5rem; 
 }
 .slide-content--container p{
     font-size: 2rem;
@@ -78,4 +85,11 @@ left: 0;
     font-size: 2.5rem;
     width: 200px;
     padding: 15px 15px;
+}
+
+
+
+/*Second section*/
+.main--second-section--container h2{
+    font-size: 3.5rem;
 }

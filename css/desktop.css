@@ -1,13 +1,16 @@
 
 /*header*/
+
 .header--container{
     max-width: 1024px;
     margin: 0 auto;
+    height: 80px;
 }
-.header-logo p{
-    margin: 0;
-    font-size: 4rem;
+.header-logo{
+    height: 60px;
+    width: 60px;
 }
+
 /*fin del header */
 
 
@@ -43,4 +46,9 @@
 .main--second-section--container{
     max-width: 1200px;
     
+}
+
+/*Second section*/
+.main--second-section--container{
+    max-width: 1200px;
 }
