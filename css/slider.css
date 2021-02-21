@@ -1,6 +1,5 @@
 /*Inicio del contenedor del slider*/
 .main--first-section{
-    background-color: rgb(124, 143, 131);
     margin-top: 60px;  
     overflow: hidden;
 
@@ -29,21 +28,21 @@
 }
 
 .first{
-    background-image: url(../img/pintor511x511.png);
+    background-image: url('../img/pintor511x511.png');
 }
 
 .second{
-    background-image: url(../img/drywall530x530.jpg);
+    background-image: url('../img/drywall530x530.jpg');
 }
 .third{
-    background-image: url(../img/pintor511x511.png);
+    background-image: url('../img/pintor511x511.png');
 }
 
 .fourth{
-    background-image: url(../img/drywall530x530.jpg);
+    background-image: url('../img/drywall530x530.jpg');
 }
 .fifth{
-    background-image: url(../img/pintor511x511.png);
+    background-image: url('../img/pintor511x511.png');
 }
 
 
