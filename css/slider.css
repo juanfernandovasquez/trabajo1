@@ -33,10 +33,10 @@
     color: white;
 
     /* Con la imagen de background*/
-    /* background-image: url(../img/ban-pintura.jpg);
+    background-image: url(../img/pintor_511x511.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover;
     
 }
 .slide:nth-child(2){
