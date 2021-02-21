@@ -49,9 +49,11 @@
 
 
 /*First section*/
-.main--first-section--container h1{
-    font-size: 4rem;
-    right: 128px;
-    width: 300px;
-
+/*slider*/
+.contenedor--first-section{
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+.slide-background-image{
+    height: 100%;
 }
