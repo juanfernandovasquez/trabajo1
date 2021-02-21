@@ -35,6 +35,18 @@
 .second{
     background-image: url(../img/drywall_530x530.jpg);
 }
+.third{
+    background-image: url(../img/pintor_511x511.png);
+}
+
+.fourth{
+    background-image: url(../img/drywall_530x530.jpg);
+}
+.fifth{
+    background-image: url(../img/pintor_511x511.png);
+}
+
+
 
 .slide-content--container{
     position: relative;
@@ -59,42 +71,11 @@
     display: flex;
     align-items: flex-end;
     flex-shrink: 0;
-}
-
-.slide:nth-child(1){
-    color: white;
-    /* Con la imagen de background*/
-
-    /*comentado para experimentar separando divs*/
-    /*background-image: url(../img/pintor_511x511.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter:brightness(0.4);*/
-    /*fin del experimento*/
-
-
-}
-
-.slide:nth-child(2){
-    color: white;
-}
-.slide:nth-child(3){
-    background: #bbdb29;
-    color: white;
-}
-.slide:nth-child(4){
-    background: #681a1a;
-    color: white;
-}
-.slide:nth-child(5){
-    background: #1041c9;
     color: white;
 }
 
 
-
-
+/*slider content styles*/
  
 .slide-content--container h2{
     font-weight: 700;
@@ -108,8 +89,6 @@
     font-size: 1.5rem;
     
 }
-
-
 .slide-content--container a{
     color: white;
     background-color: #b40808;
@@ -120,5 +99,4 @@
     margin-top: 20px;
     text-decoration: none;
     font-size: 2rem;
-
 }
