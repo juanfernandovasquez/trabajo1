@@ -17,7 +17,7 @@ slides()
 
 function slides(){
     slider.style.transform = "translate(" + (-width*contador) + "px)"
-    slider.style.transition = "transform 1.7s"
+    slider.style.transition = "transform .3s"
     contador++
 
     if(contador == sliderIndividual.length){
