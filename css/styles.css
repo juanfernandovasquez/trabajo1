@@ -227,37 +227,6 @@ html{
     width: 100%;
 }
 
-/*footer*/
-/* .footer--container{
-    padding: 20px 0;
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer--container img{
-    width: 40px;
-    height: 40px;
-}
-.footer--navegation ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer--navegation ul li{
-    list-style: none;
-    margin-bottom: 10px;
-}
-.footer--navegation ul li a{
-    text-decoration: none;
-    font-size: 1.6rem;
-}
-.footer--navegation ul li a:link,
-.footer--navegation ul li a:visited{
-    color: black;
-} */
 footer{
     background-color: black;
     height: 100%;
