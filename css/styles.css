@@ -226,3 +226,26 @@ html{
     text-align: center;
     width: 100%;
 }
+
+/*footer*/
+.footer--container{
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer--container img{
+    width: 40px;
+}
+
+.footer--navegation ul li{
+    list-style: none;
+}
+.footer--navegation ul li a{
+    text-decoration: none;
+}
+.footer--navegation ul li a:link,
+.footer--navegation ul li a:visited{
+    color: black;
+}
