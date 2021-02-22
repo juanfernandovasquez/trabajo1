@@ -13,7 +13,7 @@
 }
 
 .navegation{
-    width: 300px;
+    width: 400px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -80,6 +80,7 @@ left: 0;
 }
 .slide-content--container p{
     font-size: 2rem;
+    line-height: 2;
 }
 .slide-content--container a{
     font-size: 2.5rem;
@@ -102,4 +103,17 @@ left: 0;
 }
 .second-section--content{
     flex-basis: calc(33% - 1rem);
+}
+
+/*third section*/
+
+.main--third-section--container ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.main--third-section--container ul li{
+    flex-basis: 33%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

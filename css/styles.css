@@ -108,6 +108,7 @@ html{
     text-align: center;
 }
 .main--second-section--container h2{
+    margin-top: 20px;
     font-weight: 300;
     font-size: 3rem;
 }
@@ -131,12 +132,47 @@ html{
     width: 100%;
 }
 .second-section--content--text h3{
-    margin-top: 10px;
+    margin: 20px;
     font-size: 3rem;
     font-weight: 700;
 }
 .second-section--content--text p{
-    margin-top: 10px;
     font-weight: 400;
     font-size: 1.5rem;
+    line-height: 2;
+}
+
+/*Tercera sección*/
+.main--third-section--container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main--third-section--container h2{
+    margin: 20px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+.main--third-section--container ul{
+    margin: 0 auto;
+}
+
+.main--third-section--container ul li{
+    list-style: none;
+}
+
+.main--third-section--container ul li h3{
+    font-size: 3rem;
+}
+.main--third-section--container ul li p{
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.main--third-section--container ul li img{
+    max-width: 100%;
 }
