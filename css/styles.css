@@ -234,19 +234,48 @@ html{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .footer--container img{
     width: 40px;
     height: 40px;
 }
+.footer--navegation ul{
+    display: flex;
+    flex-direction: column;
+}
 
 .footer--navegation ul li{
     list-style: none;
+    margin-bottom: 10px;
 }
 .footer--navegation ul li a{
     text-decoration: none;
+    font-size: 1.6rem;
 }
 .footer--navegation ul li a:link,
 .footer--navegation ul li a:visited{
     color: black;
+}
+
+.cherry{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cherry p span{
+    font-weight: 700;
+}
+.cherry .me{
+
+    margin: 10px 0;
+    color: rgb(177, 177, 177);
+}
+.cherry .me a{
+    text-decoration: none;
+}
+.cherry .me a:link,
+.cherry .me a:visited{
+    color: rgb(177, 177, 177);
 }
