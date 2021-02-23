@@ -122,7 +122,7 @@ left: 0;
 }
 
 /*Fourth section*/
-.main--fourt-section--container a{
-width: 200px;
-padding: 15px;
+.main--fourt-section--container .btn{
+    width: 200px;   
+    padding: 15px;
 }

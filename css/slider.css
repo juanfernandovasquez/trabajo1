@@ -1,6 +1,5 @@
 /*Inicio del contenedor del slider*/
 .main--first-section{
-    margin-top: 60px;  
     background-color: rgb(102, 101, 101);
     overflow: hidden;
 }
@@ -19,7 +18,8 @@
 /*experimentacion*/
 
 .first{
-    background-image: url('../img/pintor511x511.png');
+    background-image: url('../imagenes_por_editar/Drywal.jpg');
+
 }
 
 .second{
@@ -41,7 +41,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter:brightness(0.4);
     position: absolute;
 }
 
@@ -82,20 +81,7 @@
     margin-bottom: 20px;
 }
 .slide-content--container p{
-    font-weight: 400;
     text-align: justify;
     line-height: 30px;
-    font-size: 1.5rem;
     
-}
-.slide-content--container a{
-    color: white;
-    background-color: #b40808;
-    width: 180px;
-    padding: 15px 0;
-    text-align: center;
-    border-radius: 3px;
-    margin-top: 40px;
-    text-decoration: none;
-    font-size: 2rem;
 }
