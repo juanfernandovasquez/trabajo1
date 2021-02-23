@@ -284,13 +284,7 @@ footer{
 }
 
 
-
-/*-------------------Pintado.html---------------*/
-
-.pintado-main--first-section--container h1,
-.pintado-main--first-section--container p{
-    margin: 20px 0;
-}
+/*Estilo de la galerías de fotos*/
 
 .gallery-container{
     display: flex;
@@ -307,4 +301,9 @@ footer{
     height: 100%;
     object-fit: cover;
     transition: 0.5s;
+}
+
+.gallery-main--first-section--container h1,
+.gallery-main--first-section--container p{
+    margin: 20px 0;
 }
