@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/hamburgers.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="../css/lightbox.min.css">
+
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/tablet.css" media="(min-width: 768px)"/>
+    <link rel="stylesheet" href="../css/desktop.css" media="(min-width: 1024px)"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header--content-container">
+            <div class="header--container">
+                <!-- acá irá de background el logo  -->
+                <a href="../index.html">
+                    <div class="header-logo img-background"></div>
+                </a>
+                
+
+                <!-- button que aparece en un inicio porque es mobile-first -->
+
+                <button class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                <script>
+                    // Look for .hamburger
+                    var hamburger = document.querySelector(".hamburger");
+                    // On click
+                    hamburger.addEventListener("click", function() {
+                      // Toggle class "is-active"
+                      hamburger.classList.toggle("is-active");
+                      // Do something else, like open/close menu
+                        
+                    });
+                  
+                </script>
+                  
+                <!-- Este menú se mostrará solo cuando esté en desktop o tablet -->
+                <nav id="navegation" class="navegation">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="gallery-main--first-section">
+            <div class="gallery-main--first-section--container container">
+                <h1>Servicio de drywall</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ducimus sunt aliquid asperiores magnam tempore culpa perferendis laboriosam nulla, distinctio itaque ea perspiciatis veniam debitis animi similique dolore sint ab dolorem eum minus! Placeat nisi incidunt iusto dignissimos officia optio.</p>
+            </div>
+            
+        </section>
+        <section class="drywall-main--second-section">
+            <div class="gallery-container container">
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img1.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img1.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img2.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img2.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img3.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img3.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img4.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img4.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img5.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img5.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img6.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img6.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img7.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img7.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img8.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img8.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img9.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img9.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img10.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img10.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img11.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img11.jpeg" alt=""></a>
+                    </div>
+                    <div class="gallery-card">
+                        <a href="../images/drywall/img12.jpeg" data-lightbox="roadtrip"><img src="../images/drywall/img12.jpeg" alt=""></a>
+                    </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="cherry container">
+            <p><span>Servicios Generales K&M</span> - &copy; 2021 - Todos los derechos Reservados - Lima, Perú</p>
+            <p class="me">Designed by <a href="https://juanfvv.com">Juan Vásquez
+            </a></p>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script>
+        $('.hamburger').on('click', function() {
+            $('.navegation').slideToggle();
+        });
+    
+    </script>
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>

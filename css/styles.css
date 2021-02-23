@@ -42,7 +42,11 @@ p{
     margin: 0 auto;
 }
 
-
+.img-background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .btn{
     background-color: #b40808;
@@ -286,9 +290,13 @@ footer{
 
 /*Estilo de la galerías de fotos*/
 
+
+/**/
 .gallery-container{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .gallery-card{
@@ -307,3 +315,5 @@ footer{
 .gallery-main--first-section--container p{
     margin: 20px 0;
 }
+
+

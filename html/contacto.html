@@ -1,0 +1,68 @@
+</head>
+<body>
+    <header>
+        <div class="header--content-container">
+            <div class="header--container">
+                <!-- acá irá de background el logo  -->
+                <a href="../index.html">
+                    <div class="header-logo img-background"></div>
+                </a>
+                
+
+                <!-- button que aparece en un inicio porque es mobile-first -->
+
+                <button class="hamburger hamburger--squeeze" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+                <script>
+                    // Look for .hamburger
+                    var hamburger = document.querySelector(".hamburger");
+                    // On click
+                    hamburger.addEventListener("click", function() {
+                      // Toggle class "is-active"
+                      hamburger.classList.toggle("is-active");
+                      // Do something else, like open/close menu
+                        
+                    });
+                  
+                </script>
+                  
+                <!-- Este menú se mostrará solo cuando esté en desktop o tablet -->
+                <nav id="navegation" class="navegation">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    
+    <footer>
+        <div class="cherry container">
+            <p><span>Servicios Generales K&M</span> - &copy; 2021 - Todos los derechos Reservados - Lima, Perú</p>
+            <p class="me">Designed by <a href="https://juanfvv.com">Juan Vásquez
+            </a></p>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script>
+        $('.hamburger').on('click', function() {
+            $('.navegation').slideToggle();
+        });
+    
+    </script>
+    <script src="../js/jquery-1.12.0.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+    <script src="../js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
+
