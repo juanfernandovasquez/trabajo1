@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="header--content-container">
-            <div class="header--container">
+            <div class="header--container container">
                 <!-- acá irá de background el logo  -->
                 <a href="../index.html">
                     <div class="header-logo img-background"></div>
@@ -131,5 +131,14 @@
     <script src="../js/jquery-1.12.0.min.js"></script>
     <script src="../js/lightbox.min.js"></script>
     <script src="../js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true,
+          'alwaysShowNavOnTouchDevices': true,
+          'imageFadeDuration': 0,
+          'positionFromTop': 100,
+        })
+    </script>
 </body>
 </html>

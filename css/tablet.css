@@ -126,3 +126,10 @@ left: 0;
     width: 200px;   
     padding: 15px;
 }
+
+
+/*Gallery styles*/
+.gallery-container{
+    grid-template-columns: repeat(3, 1fr);
+}
+

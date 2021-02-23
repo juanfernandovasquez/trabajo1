@@ -1,9 +1,11 @@
 
+.container{
+    max-width: 1200px;
+}
+
 /*header*/
 
 .header--container{
-    max-width: 1024px;
-    margin: 0 auto;
     height: 80px;
 }
 .header-logo{
@@ -66,4 +68,14 @@
 /*footer*/
 .footer--container{
     max-width: 1200px;
+}
+
+
+/*Gallery styles*/
+.gallery-container{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gallery-card{
+    height: 300px;
 }
