@@ -302,7 +302,6 @@ footer{
 .gallery-card{
     overflow: hidden;
     height: 200px;
-    margin-bottom: 20px;
 }
 .gallery-card img{
     width: 100%;
