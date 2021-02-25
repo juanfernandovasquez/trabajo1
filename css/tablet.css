@@ -149,3 +149,7 @@ body{
 .contacto--main-first-section--container div p{
     font-size: 2rem;
 } 
+.image-container img{
+    width: 50px;
+    margin: 10px;
+}

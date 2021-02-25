@@ -329,9 +329,7 @@ footer{
     margin-right: 10px; 
 }
 
-.image-container img{
-    width: 40px;
-}
+
 .contacto--main-first-section--container > p:first-of-type{
     background-color: black;
     color: white;
@@ -352,7 +350,7 @@ footer{
 
 }
 .image-container img{
-    width: 50px;
+    width: 30px;
     margin: 10px;
 }
 .redes-sociales h2{
