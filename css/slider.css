@@ -30,22 +30,22 @@
 }
 
 .first{
-    background-image: url('../xd-imagenes/img1.png');
+    background-image: url('../images/slider-images/img1.png');
 
 }
 
 .second{
-    background-image: url('../xd-imagenes/img2.jpg');
+    background-image: url('../images/slider-images/img2.jpg');
 }
 .third{
-    background-image: url('../xd-imagenes/img3.jpg');
+    background-image: url('../images/slider-images/img3.jpg');
 }
 
 .fourth{
-    background-image: url('../xd-imagenes/img4.jpg');
+    background-image: url('../images/slider-images/img4.jpg');
 }
 .fifth{
-    background-image: url('../xd-imagenes/img5.jpg');
+    background-image: url('../images/slider-images/img5.jpg');
 }
 
 

@@ -3,7 +3,7 @@ let sliderIndividual = document.querySelectorAll(".slide")
 
 let contador = 1;
 let width = sliderIndividual[0].clientWidth
-let intervalo = 7000
+let intervalo = 3000
 
 
 window.addEventListener("resize", function(){
@@ -17,7 +17,7 @@ slides()
 
 function slides(){
     slider.style.transform = "translate(" + (-width*contador) + "px)"
-    slider.style.transition = "transform 1s"
+    slider.style.transition = "transform 0.7s"
     contador++
 
     if(contador == sliderIndividual.length){

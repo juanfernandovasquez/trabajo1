@@ -92,7 +92,7 @@ p{
 }
 
 .header-logo{
-    background-image: url('../img/SVG/Recurso1.svg');
+    background-image: url('../images/icons/logo.svg');
     height: 40px;
     width: 40px;
 }
@@ -226,7 +226,7 @@ p{
 
 /*Fourt section*/
 .main--fourt-section--background{
-    background-image: url('../img/operario.jpg');
+    background-image: url('../images/operario.jpg');
 }
 
 
