@@ -1,4 +1,7 @@
 
+body{
+    padding-top: 70px;
+}
 /*header*/ 
 /*Estilos básicos del componente*/
 .header--content-container{
@@ -58,7 +61,7 @@
 /*slider*/
 .contenedor--first-section{
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 70px);
 }
 
 
@@ -68,11 +71,11 @@
 }
 
 .slide-content--container{
-bottom: 0;
-left: 0;
+    bottom: 25%;
+    left: 5%;
 }
 .slide-background-image{
-    height: calc(100vh - 60px);
+    height: calc(100vh - 70px);
 }
 
 .slide-content--container h2{
@@ -84,7 +87,7 @@ left: 0;
 }
 .slide-content--container a{
     font-size: 2.5rem;
-    width: 200px;
+    width: 177px;
     padding: 15px 15px;
 }
 
@@ -106,7 +109,9 @@ left: 0;
 }
 
 /*third section*/
-
+.main--third-section--container{
+    margin-bottom: 20px;
+}
 .main--third-section--container ul{
     display: flex;
     flex-wrap: wrap;
@@ -133,3 +138,14 @@ left: 0;
     grid-template-columns: repeat(3, 1fr);
 }
 
+
+/*contacto*/
+ .contact-data{
+    margin: 50px 0;   
+}
+
+
+.contacto--main-first-section--container > p,
+.contacto--main-first-section--container div p{
+    font-size: 2rem;
+} 

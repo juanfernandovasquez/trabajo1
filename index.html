@@ -48,11 +48,16 @@
                 <nav id="navegation" class="navegation">
                     <ul>
                         <li><a href="./index.html">Inicio</a></li>
-                        <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#">Portafolio</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a id="to-servicios" href="#servicios">Servicios</a></li>
+                        <li><a href="./html/contacto.html">Contacto</a></li>
                     </ul>
                 </nav>
+                <script>
+                    let toServicios = document.querySelector('#to-servicios')
+                    toServicios.addEventListener('click', function(){
+                        hamburger.classList.toggle('is-active')
+                    })
+                </script>
 
             </div>
         </div>
@@ -63,7 +68,7 @@
 
         <!-- inicio de la primera sección -->
         <section class="main--first-section">
-
+            
 
             <!-- inicio del contenedor del la primera sección -->
             <div class="contenedor--first-section">
@@ -239,8 +244,8 @@
 
         <!-- Pasé esta sección a su propia página -->
         <!-- inicio de la tercera sección -->
-        <section class="main--third-section">
-            <div class="main--third-section--container container" id="servicios">
+        <section class="main--third-section" id="servicios">
+            <div class="main--third-section--container container">
                 <h2>Nuestros servicios</h2>
                 <ul>
 
@@ -323,6 +328,13 @@
         $('.hamburger').on('click', function() {
             $('.navegation').slideToggle();
         });
+        $('#to-servicios').on('click', function(){
+            if (screen.width < 768) {
+                $('.navegation').slideToggle();
+                console.log("jeje si funciono")
+                
+            }
+        })
     
     </script>
     <script src="./js/slider.js"></script>

@@ -1,14 +1,17 @@
 /*Inicio del contenedor del slider*/
 .main--first-section{
     background-color: rgb(102, 101, 101);
+    width: 100vw;
+    height: 70vh;
     overflow: hidden;
 }
 .contenedor--first-section{
-    width: 100%;
-    height: 70vh;
+    width: 600vw;
+    height: 100%;
 }
 
 .slider-contenedor{
+
     width: 100%;
     height: 100%;
     display: flex;
@@ -16,43 +19,56 @@
 
 /*experimentacion*/
 
+.slide{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-shrink: 0;
+    color: white;
+    position: relative;
+}
+
 .first{
-    background-image: url('../imagenes_por_editar/Drywal.jpg');
+    background-image: url('../xd-imagenes/img1.png');
 
 }
 
 .second{
-    background-image: url('../img/drywall530x530.jpg');
+    background-image: url('../xd-imagenes/img2.jpg');
 }
 .third{
-    background-image: url('../img/pintor511x511.png');
+    background-image: url('../xd-imagenes/img3.jpg');
 }
 
 .fourth{
-    background-image: url('../img/drywall530x530.jpg');
+    background-image: url('../xd-imagenes/img4.jpg');
 }
 .fifth{
-    background-image: url('../img/pintor511x511.png');
+    background-image: url('../xd-imagenes/img5.jpg');
 }
+
+
+
 .slide-background-image{
-    height: 70vh;
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
 }
 
 
 
 .slide-content--container{
-    position: relative;
+    background-color: transparent;
     width: 90%;
     left: 5%;
     bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
 }
 
 
@@ -61,15 +77,6 @@
 
 
 /*Fin del contenedor del slider*/
-
-.slide{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: flex-end;
-    flex-shrink: 0;
-    color: white;
-}
 
 
 /*slider content styles*/
@@ -81,6 +88,5 @@
 }
 .slide-content--container p{
     text-align: justify;
-    line-height: 30px;
-    
+    line-height: 30px;    
 }
