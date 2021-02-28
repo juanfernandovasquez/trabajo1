@@ -312,6 +312,16 @@ footer{
     margin: 20px 0;
 }
 
+.gallery-main--first-section--container ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+.gallery-main--first-section--container ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
 
 /*Contacto*/
 
